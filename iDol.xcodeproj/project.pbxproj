@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6181259B1C8E839E00036362 /* Photo Dali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Dali.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6181259B1C8E839E00036362 /* iDol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6181259E1C8E839E00036362 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Photo Dali/AppDelegate.swift"; sourceTree = "<group>"; };
 		618125A31C8E839E00036362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		618125A81C8E839E00036362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		618125921C8E839E00036362 = {
 			isa = PBXGroup;
 			children = (
-				6181259D1C8E839E00036362 /* Photo Dali */,
+				6181259D1C8E839E00036362 /* iDol */,
 				618125B01C8E85FD00036362 /* Others */,
 				6181259C1C8E839E00036362 /* Products */,
 			);
@@ -49,17 +49,18 @@
 		6181259C1C8E839E00036362 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6181259B1C8E839E00036362 /* Photo Dali.app */,
+				6181259B1C8E839E00036362 /* iDol.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6181259D1C8E839E00036362 /* Photo Dali */ = {
+		6181259D1C8E839E00036362 /* iDol */ = {
 			isa = PBXGroup;
 			children = (
 				618125B71C8EB18600036362 /* Canvas */,
 				618125A21C8E839E00036362 /* Main.storyboard */,
 			);
+			name = iDol;
 			path = "Photo Dali";
 			sourceTree = "<group>";
 		};
@@ -86,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6181259A1C8E839E00036362 /* Photo Dali */ = {
+		6181259A1C8E839E00036362 /* iDol */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 618125AD1C8E839E00036362 /* Build configuration list for PBXNativeTarget "Photo Dali" */;
+			buildConfigurationList = 618125AD1C8E839E00036362 /* Build configuration list for PBXNativeTarget "iDol" */;
 			buildPhases = (
 				618125971C8E839E00036362 /* Sources */,
 				618125981C8E839E00036362 /* Frameworks */,
@@ -98,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = "Photo Dali";
+			name = iDol;
 			productName = "Photo Dali";
-			productReference = 6181259B1C8E839E00036362 /* Photo Dali.app */;
+			productReference = 6181259B1C8E839E00036362 /* iDol.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 618125961C8E839E00036362 /* Build configuration list for PBXProject "Photo Dali" */;
+			buildConfigurationList = 618125961C8E839E00036362 /* Build configuration list for PBXProject "iDol" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -132,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6181259A1C8E839E00036362 /* Photo Dali */,
+				6181259A1C8E839E00036362 /* iDol */,
 			);
 		};
 /* End PBXProject section */
@@ -276,8 +277,8 @@
 				INFOPLIST_FILE = "Photo Dali/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mx.buap.cs.ilab.Photo-Dali";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = net.davidsantiago.idol;
+				PRODUCT_NAME = iDol;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -291,8 +292,8 @@
 				INFOPLIST_FILE = "Photo Dali/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mx.buap.cs.ilab.Photo-Dali";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = net.davidsantiago.idol;
+				PRODUCT_NAME = iDol;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -300,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		618125961C8E839E00036362 /* Build configuration list for PBXProject "Photo Dali" */ = {
+		618125961C8E839E00036362 /* Build configuration list for PBXProject "iDol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				618125AB1C8E839E00036362 /* Debug */,
@@ -309,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		618125AD1C8E839E00036362 /* Build configuration list for PBXNativeTarget "Photo Dali" */ = {
+		618125AD1C8E839E00036362 /* Build configuration list for PBXNativeTarget "iDol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				618125AE1C8E839E00036362 /* Debug */,
