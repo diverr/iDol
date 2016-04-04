@@ -150,8 +150,8 @@ class CanvasViewController: UIViewController, UIPopoverPresentationControllerDel
         if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
             //SCALE_ASPECT_FIT conserva su tamaño y lo escala al MARGEN/MARCO que se le presente
             //SCALE_TO_FILL rellena todo el MARGEN/MARCO
-            secondImageView.contentMode = .ScaleAspectFit
-            //secondImageView.contentMode  = .ScaleToFill
+            //secondImageView.contentMode = .ScaleAspectFit
+            secondImageView.contentMode  = .ScaleToFill
             respaldoImage = pickedImage
             secondImageView.image = pickedImage
             

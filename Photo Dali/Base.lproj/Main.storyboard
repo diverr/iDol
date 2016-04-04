@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zng-bg-XBS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zng-bg-XBS">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Popover View Controller-->
         <scene sceneID="N2A-DV-M0N">
             <objects>
-                <viewController storyboardIdentifier="popoverController" id="IKd-tQ-mga" customClass="PopoverViewController" customModule="Photo_Dali" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="popoverController" id="IKd-tQ-mga" customClass="PopoverViewController" customModule="iDol" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QTo-IO-yJN"/>
                         <viewControllerLayoutGuide type="bottom" id="rpn-i5-92K"/>
@@ -119,7 +119,7 @@
         <!--Canvas View Controller-->
         <scene sceneID="g2z-wL-pHo">
             <objects>
-                <viewController storyboardIdentifier="canvasVC" id="bXL-Ke-tG8" customClass="CanvasViewController" customModule="Photo_Dali" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="canvasVC" id="bXL-Ke-tG8" customClass="CanvasViewController" customModule="iDol" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JIh-6R-6R5"/>
                         <viewControllerLayoutGuide type="bottom" id="EPT-Op-rdM"/>
